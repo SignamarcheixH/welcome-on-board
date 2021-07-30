@@ -15,19 +15,19 @@
             <li class="rounded-full bg-gray-700 text-xs py-2 px-4 mr-3" v-for="tag in heroGame.tags" :key="tag">{{ tag }}</li>
           </ul>
           <div class="flex items-center mb-6">
-            <img class="mr-3 w-8 h-8" src="/icons/players.png" alt="">
+            <img class="mr-3 w-8 h-8" src="/dist/icons/players.png" alt="">
             <div>{{ heroGame.nbPlayers }}</div>
           </div>
           <div class="flex items-center mb-6">
-            <img class="mr-3 w-8 h-8" src="/icons/time.png" alt="">
+            <img class="mr-3 w-8 h-8" src="/dist/icons/time.png" alt="">
             <div>{{ heroGame.averageTime }}</div>
           </div>
           <div class="flex items-center mb-6">
-            <img class="mr-3 w-8 h-8" src="/icons/brain.png" alt="">
+            <img class="mr-3 w-8 h-8" src="/dist/icons/brain.png" alt="">
             <div>{{ heroGame.authors }}</div>
           </div>
           <div class="flex items-center mb-6">
-            <img class="mr-3 w-8 h-8" src="/icons/house.png" alt="">
+            <img class="mr-3 w-8 h-8" src="/dist/icons/house.png" alt="">
             <div>{{ heroGame.editor }}</div>
           </div>
           <div>{{ heroGame.price }}</div>
@@ -69,7 +69,7 @@ export default {
         description: "Un jeu d'ambiance dans lequel vous pourrez laisser livre cours à votre imagination",
         price: '9,99€',
         isOnDiscount: false,
-        pictures: ['/games/topten.jpeg','https://picsum.photos/201'],
+        pictures: ['/dist/games/topten.jpeg','https://picsum.photos/201'],
         tags: ['Cartes', 'Humour', 'Ambiance', 'Imagination'],
         nbPlayers: '4-9',
         editor: 'Cocktail Games',
@@ -85,7 +85,7 @@ export default {
               id: 1,
               title: 'Trés Futé',
               description: 'Un habile jeu de Roll&Write dans lequel seul le plus malin saura tirer profit de ses dés',
-              picture: '/games/tres-fute.jpeg',
+              picture: '/dist/games/tres-fute.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -94,7 +94,7 @@ export default {
               id: 2,
               title: 'Kami',
               description: 'Un affrontement tactique entre deux à quatre joueurs dans un univers japonisant',
-              picture: '/games/kami.png',
+              picture: '/dist/games/kami.png',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -103,7 +103,7 @@ export default {
               id: 3,
               title: 'Love Letter',
               description: 'Qui saura utiliser au mieux la Cour pour délivrer un message à la Princesse ?',
-              picture: '/games/love-letter-2.jpeg',
+              picture: '/dist/games/love-letter-2.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -112,7 +112,7 @@ export default {
               id: 4,
               title: 'Splendor',
               description: 'Une course aux points de victoire afin de devenir le meilleur joaillier du royaume',
-              picture: '/games/splendor.jpeg',
+              picture: '/dist/games/splendor.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -127,7 +127,7 @@ export default {
               id: 4,
               title: 'Splendor',
               description: 'Une course aux points de victoire afin de devenir le meilleur joaillier du royaume',
-              picture: '/games/splendor.jpeg',
+              picture: '/dist/games/splendor.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -136,7 +136,7 @@ export default {
                 id: 3,
                 title: 'Love Letter',
                 description: 'Qui saura utiliser au mieux la Cour pour délivrer un message à la Princesse ?',
-                picture: '/games/love-letter-2.jpeg',
+                picture: '/dist/games/love-letter-2.jpeg',
                 price: '9,99€',
                 tags: ['Cartes', 'Humour', 'Ambiance'],
                 isOnDiscount: false
@@ -145,7 +145,7 @@ export default {
               id: 2,
               title: 'Kami',
               description: 'Un affrontement tactique entre deux à quatre joueurs dans un univers japonisant',
-              picture: '/games/kami.png',
+              picture: '/dist/games/kami.png',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -154,7 +154,7 @@ export default {
                 id: 1,
                 title: 'Trés Futé',
                 description: 'Un habile jeu de Roll&Write dans lequel seul le plus malin saura tirer profit de ses dés',
-                picture: '/games/tres-fute.jpeg',
+                picture: '/dist/games/tres-fute.jpeg',
                 price: '9,99€',
                 tags: ['Cartes', 'Humour', 'Ambiance'],
                 isOnDiscount: false
@@ -169,7 +169,7 @@ export default {
               id: 1,
               title: 'Trés Futé',
               description: 'Un habile jeu de Roll&Write dans lequel seul le plus malin saura tirer profit de ses dés',
-              picture: '/games/tres-fute.jpeg',
+              picture: '/dist/games/tres-fute.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -178,7 +178,7 @@ export default {
                 id: 3,
                 title: 'Love Letter',
                 description: 'Qui saura utiliser au mieux la Cour pour délivrer un message à la Princesse ?',
-                picture: '/games/love-letter-2.jpeg',
+                picture: '/dist/games/love-letter-2.jpeg',
                 price: '9,99€',
                 tags: ['Cartes', 'Humour', 'Ambiance'],
                 isOnDiscount: false
@@ -187,7 +187,7 @@ export default {
                 id: 4,
                 title: 'Splendor',
                 description: 'Une course aux points de victoire afin de devenir le meilleur joaillier du royaume',
-                picture: '/games/splendor.jpeg',
+                picture: '/dist/games/splendor.jpeg',
                 price: '9,99€',
                 tags: ['Cartes', 'Humour', 'Ambiance'],
                 isOnDiscount: false
@@ -196,7 +196,7 @@ export default {
               id: 2,
               title: 'Kami',
               description: 'Un affrontement tactique entre deux à quatre joueurs dans un univers japonisant',
-              picture: '/games/kami.png',
+              picture: '/dist/games/kami.png',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -211,7 +211,7 @@ export default {
               id: 2,
               title: 'Kami',
               description: 'Un affrontement tactique entre deux à quatre joueurs dans un univers japonisant',
-              picture: '/games/kami.png',
+              picture: '/dist/games/kami.png',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -220,7 +220,7 @@ export default {
               id: 1,
               title: 'Trés Futé',
               description: 'Un habile jeu de Roll&Write dans lequel seul le plus malin saura tirer profit de ses dés',
-              picture: '/games/tres-fute.jpeg',
+              picture: '/dist/games/tres-fute.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false
@@ -229,7 +229,7 @@ export default {
                 id: 4,
                 title: 'Splendor',
                 description: 'Une course aux points de victoire afin de devenir le meilleur joaillier du royaume',
-                picture: '/games/splendor.jpeg',
+                picture: '/dist/games/splendor.jpeg',
                 price: '9,99€',
                 tags: ['Cartes', 'Humour', 'Ambiance'],
                 isOnDiscount: false
@@ -238,7 +238,7 @@ export default {
               id: 3,
               title: 'Love Letter',
               description: 'Qui saura utiliser au mieux la Cour pour délivrer un message à la Princesse ?',
-              picture: '/games/love-letter-2.jpeg',
+              picture: '/dist/games/love-letter-2.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false

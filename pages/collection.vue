@@ -15,20 +15,20 @@
             <div class="relative">
                 <div alt="" class="hero-pic w-full bg-cover" :style="`background-image:url('${heroGame.pictures[0]}');background-position: 0% 15%`"></div>
                 <div class="banner absolute bottom-0 left-0 flex items-center px-4 py-2 w-full">
-                    <a href="play/HGIS2346AHSU2" target="_blank"><button class="bg-green px-4 py-2 text-white uppercase font-bold flex items-center rounded mr-6">Jouer</button></a>
+                    <a href="play" target="_blank"><button class="bg-green px-4 py-2 text-white uppercase font-bold flex items-center rounded mr-6">Jouer</button></a>
                     <div class="last-use mr-10 text-sm">
                         <div class="uppercase text-gray-100">Dernière utilisation</div>
                         <div class="text-gray-300">{{ heroGame.lastUse }}</div>
                     </div>
                     <div class="total-hours flex items-center mr-10 text-sm">
-                        <img src="/icons/time.png" alt="" class="mr-4 w-8 h-8">
+                        <img src="/welcome-on-board/dist/icons/time.png" alt="" class="mr-4 w-8 h-8">
                         <div>
                             <div class="uppercase text-gray-100">Temps de jeu</div>
                             <div class="text-gray-300">{{ heroGame.totalHours }}</div>
                         </div>
                     </div>
                     <div class="completion flex text-sm">
-                        <img src="/icons/cup.png" alt="" class="mr-4 w-10 h-10">
+                        <img src="/welcome-on-board/dist/icons/cup.png" alt="" class="mr-4 w-10 h-10">
                         <div>
                             <div class="uppercase text-gray-100">Succès</div>
                             <div class="text-gray-300">{{ heroGame.completed }} / {{heroGame.achievements}}</div>
@@ -121,11 +121,11 @@ export default {
               id: 3,
               title: 'Love Letter',
               description: 'Qui saura utiliser au mieux la Cour pour délivrer un message à la Princesse ?',
-              picture: '/games/love-letter.jpeg',
+              picture: '/welcome-on-board/dist/games/love-letter.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false,
-              pictures: ['/games/love-letter-2.jpeg','/games/love-letter.jpeg'],
+              pictures: ['/welcome-on-board/dist/games/love-letter-2.jpeg','/welcome-on-board/dist/games/love-letter.jpeg'],
                 nbPlayers: '4-9',
                 editor: 'Cocktail Games',
                 authors: 'Aurelien Picolet',
@@ -259,11 +259,11 @@ export default {
               id: 1,
               title: 'Trés Futé',
               description: 'Un habile jeu de Roll&Write dans lequel seul le plus malin saura tirer profit de ses dés',
-              picture: '/games/tres-fute.jpeg',
+              picture: '/welcome-on-board/dist/games/tres-fute.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false,
-              pictures: ['/games/tres-fute.jpeg','/games/tres-fute-2.jpeg'],
+              pictures: ['/welcome-on-board/dist/games/tres-fute.jpeg','/welcome-on-board/dist/games/tres-fute-2.jpeg'],
                 nbPlayers: '4-9',
                 editor: 'Cocktail Games',
                 authors: 'Aurelien Picolet',
@@ -395,11 +395,11 @@ export default {
               id: 2,
               title: 'Kami',
               description: 'Un affrontement tactique entre deux à quatre joueurs dans un univers japonisant',
-              picture: '/games/kami.png',
+              picture: '/welcome-on-board/dist/games/kami.png',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false,
-              pictures: ['/games/kami.png','/games/kami-2.jpeg'],
+              pictures: ['/welcome-on-board/dist/games/kami.png','/welcome-on-board/dist/games/kami-2.jpeg'],
                 nbPlayers: '4-9',
                 editor: 'Cocktail Games',
                 authors: 'Aurelien Picolet',
@@ -530,11 +530,11 @@ export default {
               id: 3,
               title: 'Love Letter',
               description: 'Qui saura utiliser au mieux la Cour pour délivrer un message à la Princesse ?',
-              picture: '/games/love-letter.jpeg',
+              picture: '/welcome-on-board/dist/games/love-letter.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false,
-              pictures: ['/games/love-letter-2.jpeg','/games/love-letter.jpeg'],
+              pictures: ['/welcome-on-board/dist/games/love-letter-2.jpeg','/welcome-on-board/dist/games/love-letter.jpeg'],
                 nbPlayers: '4-9',
                 editor: 'Cocktail Games',
                 authors: 'Aurelien Picolet',
@@ -666,11 +666,11 @@ export default {
               id: 4,
               title: 'Splendor',
               description: 'Une course aux points de victoire afin de devenir le meilleur joaillier du royaume',
-              picture: '/games/splendor.jpeg',
+              picture: '/welcome-on-board/dist/games/splendor.jpeg',
               price: '9,99€',
               tags: ['Cartes', 'Humour', 'Ambiance'],
               isOnDiscount: false,
-              pictures: ['/games/splendor.jpeg','/games/splendor-2.jpeg'],
+              pictures: ['/welcome-on-board/dist/games/splendor.jpeg','/welcome-on-board/dist/games/splendor-2.jpeg'],
                 nbPlayers: '4-9',
                 editor: 'Cocktail Games',
                 authors: 'Aurelien Picolet',

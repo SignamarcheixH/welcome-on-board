@@ -879,5 +879,14 @@ export default {
     .hero-pic {
         height: 20rem;
     }
+    .bg-green {
+        background: linear-gradient(to right, #73D01E, #69bd1b);
+    }
+    .bg-teal {
+        background: linear-gradient(to right, #2a475e, #254e6d, #2a475e);
+    }
+    .bg-tealer {
+        background-color: #173247;
+    }
 
 </style>

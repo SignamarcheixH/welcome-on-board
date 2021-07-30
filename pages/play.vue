@@ -3,9 +3,9 @@
         <div class="menu flex flex-col absolute top-0 left-1/2 transition z-50">
             <div class="actions flex px-4 py-4 rounded-bl-lg border-b-2 border-l-2 border-r-2" style="background-color: #E8EFF4">
                 <div class="h-12 w-20 mr-10 logo"><img src="/logo.png" alt="" class="h-full bg-cover"/></div>
-                <div @click="openInvite()" class="h-12 w-12 rounded-full p-2 mr-10 invite cursor-pointer"><img src="/icons/send.png" alt="" class="h-full"/></div>
-                <div class="h-12 w-12 rounded-full p-2 mr-10 rules cursor-pointer"><img src="/icons/book.png" alt="" class="h-full"/></div>
-                <div class="h-12 w-12 rounded-full p-2 leave cursor-pointer"><img src="/icons/leave.png" alt="" class="h-full"/></div>
+                <div @click="openInvite()" class="h-12 w-12 rounded-full p-2 mr-10 invite cursor-pointer"><img src="/welcome-on-board/dist/icons/send.png" alt="" class="h-full"/></div>
+                <div class="h-12 w-12 rounded-full p-2 mr-10 rules cursor-pointer"><img src="/welcome-on-board/dist/icons/book.png" alt="" class="h-full"/></div>
+                <div class="h-12 w-12 rounded-full p-2 leave cursor-pointer"><img src="/welcome-on-board/dist/icons/leave.png" alt="" class="h-full"/></div>
             </div>
             <div class="self-end flex" style="transform: translateY(-2px)">
                 <div class="fake border-t-2 border-r-2 rounded-tr w-8 h-6 z-50"></div>
@@ -683,7 +683,7 @@ export default {
     }
     .board {
         /* background: linear-gradient(to bottom, #d1b159, #dbca9a); */
-        background: url('/floor.png');
+        background: url('/welcome-on-board/dist/floor.png');
         @apply bg-contain;
     }
     .cards {

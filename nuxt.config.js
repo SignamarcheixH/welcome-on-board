@@ -42,6 +42,6 @@ export default {
   },
   target: 'static',
   router: {
-    base: '/welcome-on-board/'
+    base: '/welcome-on-board/dist/'
   }
 }

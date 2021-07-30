@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fwelcome-on-board\u002F_nuxt\u002Fstatic\u002F1627656679",layout:"default",error:a,serverRendered:true,routePath:"\u002Fcollection",config:{_app:{basePath:"\u002Fwelcome-on-board\u002F",assetsPath:"\u002Fwelcome-on-board\u002F_nuxt\u002F",cdnURL:a}}}}(null));

@@ -15,7 +15,7 @@
             <div class="relative">
                 <div alt="" class="hero-pic w-full bg-cover" :style="`background-image:url('${heroGame.pictures[0]}');background-position: 0% 15%`"></div>
                 <div class="banner absolute bottom-0 left-0 flex items-center px-4 py-2 w-full">
-                    <a href="play" target="_blank"><button class="bg-green px-4 py-2 text-white uppercase font-bold flex items-center rounded mr-6">Jouer</button></a>
+                    <a href="/dist/play/AZE232FDUG2" target="_blank"><button class="bg-green px-4 py-2 text-white uppercase font-bold flex items-center rounded mr-6">Jouer</button></a>
                     <div class="last-use mr-10 text-sm">
                         <div class="uppercase text-gray-100">Dernière utilisation</div>
                         <div class="text-gray-300">{{ heroGame.lastUse }}</div>
